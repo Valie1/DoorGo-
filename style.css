@@ -14763,5 +14763,49 @@ body.dg-v62 .btn::after {
   }
 }
 
-/* DoorGO v76 SEO helper text */
-.seo-hidden-keywords-doorgo{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:normal!important;border:0!important}
+
+/* DoorGO v77 keyword SEO section — visible, natural Georgian search text */
+.keyword-seo-section{
+  padding:72px 22px;
+  background:linear-gradient(180deg,#eefbff,#ffffff);
+}
+.keyword-seo-card{
+  max-width:1180px;
+  margin:0 auto;
+  border-radius:36px;
+  padding:34px;
+  background:rgba(255,255,255,.92);
+  border:1px solid rgba(25,214,255,.22);
+  box-shadow:0 22px 60px rgba(0,60,90,.12);
+}
+.keyword-seo-card h2{
+  margin:0 0 14px;
+  color:#061826;
+  font-size:clamp(26px,4vw,42px);
+  line-height:1.08;
+}
+.keyword-seo-card p{
+  color:#4d6d80;
+  line-height:1.75;
+  font-weight:650;
+}
+.keyword-chip-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:22px;
+}
+.keyword-chip-list span{
+  display:inline-flex;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(8,121,242,.08);
+  color:#075fae;
+  font-weight:900;
+  border:1px solid rgba(8,121,242,.11);
+}
+@media(max-width:820px){
+  .keyword-seo-section{padding:38px 10px}
+  .keyword-seo-card{border-radius:28px;padding:24px 18px}
+  .keyword-chip-list span{font-size:13px}
+}

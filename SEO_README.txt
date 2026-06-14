@@ -1,13 +1,17 @@
-DoorGO SEO v76
+DoorGO SEO v77 keyword boost
 
-Upload all files to GitHub.
+Added natural visible Georgian keyword sections for:
+- კარის გაღება
+- კარების გაღება
+- კარების გაღება თბილისი
+- ჩაკეტილი კარის გაღება
+- მანქანის კარის გაღება
+- საკეტის შეცვლა / საკეტის შეკეთება
+- კარის ხელოსანი / საკეტის ხელოსანი
+- თოკით ჩასვლა / სიმაღლიდან ბინაში შესვლა
 
-Then open:
-https://doorgo.ge/sitemap.xml
-https://doorgo.ge/robots.txt
-
-Google Search Console steps:
-1. Add property: https://doorgo.ge/
-2. Verify ownership.
-3. Submit sitemap: https://doorgo.ge/sitemap.xml
-4. Use URL Inspection for https://doorgo.ge/ and click Request indexing.
+After upload:
+1) Open https://doorgo.ge/sitemap.xml
+2) Google Search Console → Sitemaps → submit sitemap.xml
+3) URL Inspection → https://doorgo.ge/ → Request indexing
+4) Also request indexing for OurServices.html and the 4 service pages.
